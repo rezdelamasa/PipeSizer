@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPM Calculator</title>
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+
+	<h3>Enter your Fixture Units separated by spaces.</h3>
+	<form id="form">
+		<input type="string" name="load" id="load-input" autocomplete="off">
+		<label>Starting Floor</label>
+		<input type="string" name="floor" id="floor-input" autocomplete="off">
+		<input id="submit" type="button" value="Submit">
+	</form>
+
+	<h1 id="error"></h1>
+
+	<div>
+		<h1>Input:</h1>
+		<ul id="input__list">
+		</ul>
+		<!-- <p class="numbers" id="display">0</p> -->
+	</div>
+
+	<div>
+		<h1>Total Fixture Units:</h1>
+		<p class="numbers" id="total">0</p>
+	</div>
+
+	<div>
+		<h1>Demand:</h1>
+		<p class="numbers" id="gpm">0</p>
+	</div>
+
+	<div>
+		<h1>Pipe Size:</h1>
+		<p class="numbers" id="size">0</p>
+	</div>
+
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>

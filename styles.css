@@ -1,0 +1,8 @@
+.numbers {
+	font-size: 24px;
+}
+
+.input__list li {
+	display: inline-block;
+	float: left;
+}
